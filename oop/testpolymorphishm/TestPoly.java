@@ -25,10 +25,16 @@ public class TestPoly {
         at oop.testpolymorphishm.TestPoly.main(TestPoly.java:20)
          */
 
-         if(d3 instanceof Cat){
-            Cat c2 = (Cat) d3;
-            c2.sleep();
-         }//就不会报错
+//         if(d3 instanceof Cat){
+//            Cat c2 = (Cat) d3;
+//            c2.sleep();
+//         }//就不会报错
+//
+//        // jdk 14， instanceof 后面可以加变量， 直接转化
+//         if(d3 instanceof Cat c2){
+//            c2.sleep();
+//         }//就不会报错
+//         }
     }
 
     static void animalCry(Animal animal){
